@@ -11,7 +11,7 @@ echo "Resnet50 experiment\n$(date)\n" > $OUT_FILE
 # Summary, too long.
 # ./paleo.sh summary $NET_FILE
 
-paleo.sh simulate $NET_FILE \
+./paleo.sh simulate $NET_FILE \
     --batch_size=64 \
     --network_name=ethernet\
     --device_name=K40 \
